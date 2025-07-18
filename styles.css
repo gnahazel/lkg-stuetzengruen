@@ -10,7 +10,7 @@ body {
   scroll-behavior: smooth;
 }
 
-.hero-image img {
+.welcome-image img {
   width: 100%;
   height: auto;
   display: block;
