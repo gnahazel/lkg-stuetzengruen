@@ -31,14 +31,27 @@ nav .logo {
   font-size: 1.2rem;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
-  background-image: url("images/Logo.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  padding: 100px 20px;
-  min-height: 100vh;
+  height: 40px;
+  width: auto;
 }
 
 nav ul {
