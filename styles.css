@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  position: relative;
+  border: 2px solid red;
   top: 0;
   width: 100%;
   background-color: white;
