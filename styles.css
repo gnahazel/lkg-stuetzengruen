@@ -10,6 +10,11 @@ body {
   scroll-behavior: smooth;
 }
 
+.hero-image {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .hero-image img {
   width: 100%;
   height: auto;
