@@ -10,6 +10,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -18,14 +24,6 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-}
-
 
 nav {
   display: flex;
@@ -52,20 +50,27 @@ nav {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
+  list-style: none;
   gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #222;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
 section {
-  padding: 100px 20px;
+  padding: 4rem 2rem;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .hero {
