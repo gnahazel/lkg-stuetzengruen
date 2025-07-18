@@ -31,6 +31,16 @@ nav .logo {
   font-size: 1.2rem;
 }
 
+.logo {
+  background-image: url("images/Logo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
 nav ul {
   list-style: none;
   display: flex;
